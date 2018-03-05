@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/custom.css">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="jumbotron">
+            <div class="container">
+                <h1>Star Wars Hangman</h1>
+                <h2>Guess the name of the Planets from the Star Wars Universe</h2>
+                <medium>Click a letter to star guessing</medium>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+
+            <div class="panel panel-default panel-transparent">
+                <h3 class="panel-title">
+                    <strong>Name of Character</strong>
+                </h3>
+            </div>
+            <div class="panel-body">
+                <h3 id="word-blanks">_ _ _ _ _ _ _ _ _</h3>
+            </div>
+        </div>
+
+        <div class="panel panel-default panel-transparent">
+            <div class="panel-body">
+
+                <strong>Wrong letters: </strong>
+                <span id+ "wrong-guesses"></span>
+            </div>
+        </div>
+
+        <div class="panel panel-default panel-transparent">
+            <div class="panel-body">
+
+                <strong>Amount of Guesses Left: </strong>
+                <span id="guesses-left">9</span>
+            </div>
+        </div>
+
+        <div class="panel panel-default panel-transparent">
+            <div class="panel-body">
+
+                <strong>Characters Guessed Right: </strong>
+                <span id="win-counter">0</span>
+            </div>
+        </div>
+
+        <div class="panel panel-default panel-transparent">
+            <div class="panel-body">
+
+                <strong>Wrongly Guessed Characters: </strong>
+                <span id="loss-counter">0</span>
+            </div>
+        </div>
+    </div>
+
+<script src="./js/javascript.js"></script>
+</body>
+
+
+</body>
+
+</html>

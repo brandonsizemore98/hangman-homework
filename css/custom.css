@@ -1,0 +1,24 @@
+.jumbotron {
+  background-image: url(../assets/yoda.jpg);
+  background-position: 0% 25%;
+  background-size: cover;
+}
+body {
+  background-image: url(../assets/hangman.jpg);
+}
+
+.panel-transparent {
+  background: none;
+}
+
+.panel-transparent .panel-heading{
+  background: rgba(122, 130, 136, 0.2)!important;
+}
+
+.panel-transparent .panel-body{
+  background: rgba(46, 51, 56, 0.2)!important;
+}
+
+.panel{
+  text-decoration-color: red;
+}
